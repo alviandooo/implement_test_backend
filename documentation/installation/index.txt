@@ -1,0 +1,21 @@
+# Project Installation
+- clone project from repository github
+- open location folder project by terminal
+- run command: npm install 
+- copy file with name .example-env and paste with name .env
+- you have to fill variables in .env with your environment
+
+# Database Migrate & Seed 
+- create new database using name "development" (without "")
+- open location folder project by terminal
+- run command: npx sequelize-cli db:migrate
+- run command: npx sequelize-cli db:seed:all
+
+# Running Project
+- open location folder project by terminal
+- run command: npm run dev
+
+Note :
+- this project using postgresql database and node version v16.20.0
+
+Thanksfully,
