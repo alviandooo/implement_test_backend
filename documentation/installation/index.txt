@@ -15,6 +15,9 @@
 - open location folder project by terminal
 - run command: npm run dev
 
+# Testing
+- you can testing this project using postman collection & postman environment in folder documentation > postman
+
 Note :
 - this project using postgresql database and node version v16.20.0
 
